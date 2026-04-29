@@ -18,3 +18,22 @@ Este projeto foi desenvolvido para demonstrar a integração entre linguagens de
 
 ---
 Projeto desenvolvido para portfólio de entrada no mercado de tecnologia.
+
+## 📖 Sobre o Projeto
+Este é um monitor de performance distribuído, projetado para demonstrar a integração entre linguagens de alta performance (*Go) e processamento flexível de dados (Python/Flask*). O sistema coleta métricas críticas de servidores Linux em tempo real.
+
+## 🛠️ Stack Técnica
+* *Go (Agente):* Coleta de baixo nível de CPU, RAM e Goroutines. Escolhido pela alta eficiência em concorrência.
+* *Python/Flask (Server):* Backend responsável por receber as métricas, processar alertas e servir os dados.
+* *Arquitetura:* Agente-Servidor (Client-Server) via protocolos HTTP/JSON.
+
+## 🚀 Como Executar
+
+### 1. Servidor (Python)
+```bash
+# Navegue até a pasta do servidor
+cd monitor-performance/
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py

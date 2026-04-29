@@ -1,3 +1,3 @@
 module github.com/quinelatogq-bit/monitor-agente
 
-go 1.26.2
+go 1.21.2
